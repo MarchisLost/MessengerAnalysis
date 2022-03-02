@@ -130,3 +130,6 @@ dmypy.json
 
 # Csv
 *.csv
+
+# Img
+/dataImg
