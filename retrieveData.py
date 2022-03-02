@@ -8,7 +8,7 @@ DATAPATH = os.getenv('DATAPATH')
 
 
 def retrieveData():
-    # Gets all the files names ended in json, then gets just the number on the file name into a sorted list
+    # Gets all the files names ended in json, then gets just the number on the file name into a dict
     files = [pos_json for pos_json in os.listdir(DATAPATH) if pos_json.endswith('.json')]
     fileNumber = {}
     for name in files:
